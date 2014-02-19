@@ -1,0 +1,1275 @@
+@charset "utf-8";
+/* CSS Document */
+html,body,div,ul,ol,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,pre,form,p,blockquote,fieldset,input,hr {margin:0; padding:0;}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
+audio, canvas, video { display: inline-block; *display: inline; *zoom: 1; }
+
+ol, ul {
+	list-style: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a:link, a:visited, a:focus, a:hover, a:active {outline:0 !important; text-decoration:none; border:0px !important;}
+
+/* set image max width to 100% */
+img {
+	border:0px !important;
+	outline:none !important;
+	max-width: 100%;
+	height: auto;
+	width: auto\9; /* ie8 */
+}
+
+.inbio-left{ float:left;}
+.inbio-right{ float:right;}
+
+/************************************************************************************
+GENERAL STYLING
+*************************************************************************************/
+
+body
+{
+	background:#004080;
+	width:100%;
+}
+
+.inbio-wrapper
+{
+	background:#f2f6f9 url(../img/bg-body.jpg) repeat-x top left;	
+}
+
+	/* HEADER STYLING
+	*************************************************************************************/
+	.inbio-top
+	{
+		background:url(../img/bg-top.png) repeat-x top;
+		display: block;
+		height:auto;
+		overflow: hidden;
+		width:100%;
+	}
+	
+	.inbio-header
+	{
+		display:block;
+		height:auto;
+		margin:0 auto;
+		overflow:hidden
+		padding:0 0 20px;
+		position:relative;
+		width:100%;
+		
+		max-width:900px;
+	}
+		
+		.inbio-language
+		{
+			color:#7b91ac;
+			float:right;
+			font:normal normal 12px/1.2em Tahoma, Geneva, sans-serif;
+			padding:6px 0 0 0;
+			text-align:left;
+			width:150px;
+		}
+		
+			.inbio-flag-es
+			{
+			}
+			
+			.inbio-flag-en
+			{
+			}		
+		
+		
+		.logo-inbiomedic
+		{
+			background:#fff;
+			display:block;
+			overflow:hidden;
+			padding:15px 10px 5px;
+			position:absolute;
+			top:28px;
+			left:20px;
+			z-index:150;
+			
+			-webkit-box-shadow:	0px 5px 7px rgba(50, 50, 50, 0.45);
+			-moz-box-shadow:	0px 5px 7px rgba(50, 50, 50, 0.45);
+			box-shadow:			0px 5px 7px rgba(50, 50, 50, 0.45);
+		}
+			
+			.logo-inbiomedic a:link,
+			.logo-inbiomedic a:visited,
+			.logo-inbiomedic a:active,
+			.logo-inbiomedic a:hover
+			{
+				border:none;
+				display:block;
+				outline:none;
+			}
+		
+			.logo-inbiomedic a h1
+			{
+				display:none;
+			}
+		
+		
+		.inbio-menu
+		{
+			bottom:-5px;
+			display:block;
+			overflow:hidden;
+			position:absolute;
+			right:0px;
+			max-width:900px;
+			width:100%;
+			z-index:200;
+		}
+		
+			.inbio-menu ul
+			{
+				background:#004080;
+				display:inline-block;
+				border-bottom:solid 5px #169ffb;
+				width:100%;
+				
+				opacity: 0.9;
+				filter: alpha(opacity=90);
+				-moz-opacity: 0.9;
+			}
+			
+			.inbio-menu ul li
+			{
+				display:inline;
+				float:left;
+				overflow:hidden;
+			}
+			
+			.inbio-menu ul li a:link,
+			.inbio-menu ul li a:visited,
+			.inbio-menu ul li a:active,
+			.inbio-menu ul li a:hover
+			{
+				color:#fff;
+				display:block;
+				font: normal bold 16px/1.2em 'Maven Pro', sans-serif;
+				overflow:hidden;
+				text-align:center;
+				text-decoration:none;
+				text-transform:uppercase;
+				padding:15px 26px 15px 27px;
+			}
+			
+			.inbio-menu ul li a:hover
+			{
+				background:#001d3a;
+				display:block;
+				overflow:hidden;
+			}
+			
+			.inbio-menu ul li a.inbio-nav-select:link ,
+			.inbio-menu ul li a.inbio-nav-select:visited ,
+			.inbio-menu ul li a.inbio-nav-select:active ,
+			.inbio-menu ul li a.inbio-nav-select:hover 
+			{
+				background:#169ffb;
+				opacity: 1;
+				filter: alpha(opacity=100);
+				-moz-opacity: 1;
+			}
+			
+			
+			
+		/* GALLERY STYLING
+		*************************************************************************************/
+		.inbio-gallery-intro
+		{
+			/*background:url(../img/img-1-intro.gif) no-repeat 157px 13px;*/
+			display:block;
+			height:600px;
+		}
+			.inbio-intro-txt
+			{
+				color:#32363b;
+				font: normal bold 28px/1.2em 'Maven Pro', sans-serif;
+				position:absolute;
+				text-transform:uppercase;
+				top:220px;
+				left:-30px;
+				
+				width:100%;
+				max-width:300px;
+			}
+			
+			.inbio-intro-menu
+			{
+				bottom:40px;
+				display:block;
+				height:125px;
+				margin:0 auto;
+				left:-30px;
+				position:absolute;
+				width:738px;
+				z-index:999;
+			}
+			
+			.inbio-logo
+			{
+				background:#0c6eb0;
+				float:left;
+				padding:13px 25px 12px;
+				width:270px;
+			}
+			
+			.inbio-intro-link
+			{
+				float:left;
+				width:400px;
+			}
+			
+				.inbio-intro-link a:link,
+				.inbio-intro-link a:visited,
+				.inbio-intro-link a:active,
+				.inbio-intro-link a:hover
+				{
+					background:#004080;
+					color:#fff;
+					display:block;
+					float:left;
+					height:60px;
+					padding:15px 0;
+					text-align:center;
+					text-decoration:none;
+					width:200px;
+					
+					opacity: 0.9;
+					filter: alpha(opacity=90);
+					-moz-opacity: 0.9;
+				}
+								
+				.inbio-intro-link a:hover
+				{
+					background:#0b3156;
+					text-decoration:none;
+					
+					opacity: 1;
+					filter: alpha(opacity=100);
+					-moz-opacity: 1;
+				}
+				
+				.inbio-intro-link a:link span,
+				.inbio-intro-link a:visited  span,
+				.inbio-intro-link a:active  span,
+				.inbio-intro-link a:hover  span
+				{
+					font: normal normal 22px/1.2em 'Maven Pro', sans-serif;
+				}
+			
+			.inbio-intro-phone
+			{
+				color:#194d83;
+				display:blockblock;
+				overflow:hidden;
+				font:normal bold 24px/1.2em 'Maven Pro', sans-serif;
+				padding:15px 0 0 0;
+				width:100%;
+			}
+				
+		.inbio-gallery-intro-2
+		{
+			width:100%;
+			max-width:900px;
+			margin:0 auto;
+			position:relative;
+		}
+		
+		
+		.inbio-gallery
+		{
+			display:block;
+			height:auto;
+			position:relative;
+			top:13px;
+			width:900px;
+			z-index:1;			
+		}
+		
+			.inbio-ico-intro
+			{
+				position:absolute;
+				right:205px;
+				top:20px;
+				z-index:155;
+			}
+								
+				.inbio-ico-intro a:link,
+				.inbio-ico-intro a:visited,
+				.inbio-ico-intro a:active,
+				.inbio-ico-intro a:hover 			
+				{
+					background:#ffffff url(../img/ico-intro.png) no-repeat center 25px;
+					color:#004080;
+					display:block;
+					font: normal bold 13px/1.0em 'Maven Pro', sans-serif;
+					height:15px;
+					overflow:hidden;
+					padding:25px 5px 7px;
+					width:17px;
+					
+					opacity: 0.9;
+					filter: alpha(opacity=90);
+					-moz-opacity: 0.9;
+				}  
+				
+				.inbio-ico-intro a:hover 			
+				{
+					background:#004080 url(../img/ico-intro.png) no-repeat center 10px;
+					color:#fff;
+				}
+		
+			.inbio-btn
+			{
+				position:absolute;
+				right:0px;
+				top:40px;
+				z-index:155;
+			}
+								
+				.inbio-btn a:link,
+				.inbio-btn a:visited,
+				.inbio-btn a:active,
+				.inbio-btn a:hover 			
+				{
+					background:#ffffff url(../img/btn-ib.png) no-repeat top right;
+					color:#004080;
+					display:block;
+					font: normal bold 13px/1.0em 'Maven Pro', sans-serif;
+					overflow:hidden;
+					padding:7px 37px 7px 10px;
+					max-height:27px;
+				}  
+				
+				.inbio-btn a:hover 			
+				{
+					background:#004080 url(../img/btn-ib.png) no-repeat bottom right;
+					color:#fff;
+				}
+		
+			.inbio-phone
+			{
+				bottom:67px;
+				position:absolute;
+				right:0px;
+				width:223px;
+				z-index:155;
+			}
+			
+			.inbio-phone a:link,
+			.inbio-phone a:visited,
+			.inbio-phone a:active,
+			.inbio-phone a:hover  
+			{
+				background:#004080 url(../img/ico-phone.png) no-repeat 92% 22px;
+				display:block;
+				padding:15px;
+				overflow:hidden;
+				opacity: 0.9;
+				filter: alpha(opacity=90);
+				-moz-opacity: 0.9;
+			}  
+			
+			.inbio-phone a:hover  
+			{
+				background:#001d3a url(../img/ico-phone.png) no-repeat 92% 22px;
+				padding:15px;
+			}
+			
+				.inbio-phone a:link .inbio-txt-phone,
+				.inbio-phone a:visited .inbio-txt-phone,
+				.inbio-phone a:active .inbio-txt-phone,
+				.inbio-phone a:hover .inbio-txt-phone
+				{
+					color:#169ffb;
+					font: normal bold 20px/1.2em 'Maven Pro', sans-serif;
+				}
+				
+				.inbio-phone a:link .inbio-txt-number,
+				.inbio-phone a:visited .inbio-txt-number,
+				.inbio-phone a:active .inbio-txt-number,
+				.inbio-phone a:hover .inbio-txt-number
+				{
+					color:#169ffb;
+					font: normal normal 31px/1.0em  Tahoma, Geneva, sans-serif;
+				}
+					
+					.inbio-phone a:link .inbio-txt-phone span,
+					.inbio-phone a:visited .inbio-txt-phone span,
+					.inbio-phone a:active .inbio-txt-phone span,
+					.inbio-phone a:hover .inbio-txt-phone span,
+					.inbio-phone a:link .inbio-txt-number span,
+					.inbio-phone a:visited .inbio-txt-number span,
+					.inbio-phone a:active .inbio-txt-number span,
+					.inbio-phone a:hover .inbio-txt-number span
+					{
+						color:#fff;
+					}
+			
+					.inbio-phone a:hover .inbio-txt-phone span,
+					.inbio-phone a:hover .inbio-txt-number span
+					{
+					}
+			
+			.inbio-head-gallery .box_skitter .label_skitter{	
+				bottom: 100px;
+				display: none;
+				left: 0px;
+				position: absolute;
+				opacity: 0.9;
+				z-index: 150;
+			}
+			
+			.inbio-head-gallery .box_skitter .label_skitter p {
+				font: normal bold 26px/1.2em 'Maven Pro', sans-serif;
+				margin:0px;
+				text-transform:uppercase;
+			}
+			
+			
+			.inbio-head-gallery .box_skitter .label_skitter p span.slogan1 {
+				background:#fff;
+				color:#004080;
+				display:inline-block;
+				margin:0 0 2px;
+				padding:2px 10px 2px 20px;
+			}
+			.inbio-head-gallery .box_skitter .label_skitter p span.slogan2 {
+				background:#fff;
+				color:#169ffb;
+				display:inline-block;
+				margin:0 0 2px;
+				padding:2px 10px 2px 20px;
+			}
+			
+			.inbio-head-gallery .skitter-clean .info_slide_dots {
+				background:none !important;
+				box-shadow:none !important;
+				left: inherit !important;
+				bottom: 77px;
+				right:226px !important;
+				
+				opacity: 0.9;
+				filter: alpha(opacity=90);
+				-moz-opacity: 0.9;
+			}
+			
+			.inbio-head-gallery .skitter-clean .info_slide_dots .image_number {
+				border:solid 2px #fff;
+				width: 14px;
+				height: 14px;
+				background: #004083;
+			}
+			
+			.inbio-head-gallery .skitter-clean .info_slide_dots .image_number:hover {
+				background: #001d3a;
+			}
+			
+			.inbio-head-gallery .skitter-clean .info_slide_dots .image_number_select, .skitter-clean .info_slide_dots .image_number_select:hover {
+				background: #169ffb;
+			}
+			
+	
+	
+	/* BODY STYLING
+	*************************************************************************************/
+	.inbio-content
+	{
+		margin:0 auto;
+		width:100%;
+		max-width:900px;
+	}
+	
+	.inbio-body
+	{
+		display:inline-block;
+		height:auto;
+		position:relative;
+	}
+	
+		.inbio-body article
+		{
+			display:block;
+			float:left;
+			overflow:hidden;
+			margin:15px 0 0 0;
+			max-width:300px;
+			width:100%;
+		}
+		
+		.inbio-body article.inbio-phrase
+		{
+			display:block;
+			overflow:hidden;
+			margin:15px 0 0 0;
+			max-width:900px;
+			width:100%;
+			
+			-webkit-box-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+			-moz-box-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+			box-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+		}
+		
+		.inbio-body article .inbio-block
+		{
+			background:#fff;
+			display:block;
+			margin:0 10px 2px 0;
+			min-height:310px;
+			max-width:290px;
+			overflow:hidden;
+			width:100%;
+			-webkit-box-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+			-moz-box-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+			box-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+		}
+		
+			.inbio-body article .inbio-block img
+			{
+				display:block;
+				margin:0 0 10px 12px;
+				overflow:hidden;
+			}
+		
+		.inbio-body article .inbio-block h2
+		{
+			background:#169ffb;
+			color:#fff;
+			display:block;
+			font: normal bold 18px/1.2em 'Maven Pro', sans-serif;
+			margin:15px 10px 15px 0;
+			overflow:hidden;
+			padding:12px 13px;
+			text-align:left;
+			text-transform:uppercase;
+		}
+		
+		.inbio-body article .inbio-block p.inbio-welcome
+		{
+			background:url(../img/quotes-1.png) no-repeat 13px top;
+			color:#32363b;
+			font:normal normal 13px/1.4em Tahoma, Geneva, sans-serif;
+			padding:0 22px 15px 52px;
+			position:relative;
+			max-height:200px;
+			text-align:left;
+			z-index:2;
+		}
+		
+		.inbio-body article .inbio-block p.inbio-welcome span.inbio-quotes
+		{
+			background:url(../img/quotes-2.png) no-repeat;
+			bottom:0px;
+			height:29px;
+			padding:0px;
+			position:absolute;
+			right:15px;
+			width:29px;
+			z-index:1;
+		}
+		
+		.inbio-body article .inbio-block span
+		{
+			color:#169ffb;
+			display:block;
+			font:normal bold 14px/1.2em 'Maven Pro', sans-serif;
+			overflow:hidden;
+			padding:0 0 0 15px;
+			text-align:left;
+			width:95%;
+		}
+	
+	
+		.inbio-body article .inbio-block ul
+		{
+			display:block;
+			overflow:hidden;
+		}
+		
+		.inbio-body article .inbio-block ul li
+		{
+			background:url(../img/bullet.png) no-repeat 15px 5px;
+			display:block;
+			overflow:hidden;
+			padding:0 10px 0px 35px;
+		}
+		
+			.inbio-body article .inbio-block ul li a:link,
+			.inbio-body article .inbio-block ul li a:visited,
+			.inbio-body article .inbio-block ul li a:active,
+			.inbio-body article .inbio-block ul li a:hover  
+			{
+				color:#169ffb;
+				font:normal normal 13px/1.4em Tahoma, Geneva, sans-serif;
+			}
+			
+			.inbio-body article .inbio-block ul li a:hover  
+			{
+				color:#169ffb;
+				text-decoration:underline;
+			}
+		
+		
+		.inbio-body article.inbio-results
+		{
+			display:block;
+			overflow:hidden;
+			margin:15px 0 0;
+			max-width:300px;
+			width:100%;
+		}
+		
+		.inbio-body article.inbio-results .inbio-block
+		{
+			background:#fff;
+			display:block;
+			margin:0 1px 2px 0;
+			min-height:310px;
+			max-width:298px;
+			overflow:hidden;
+			width:100%;
+			-webkit-box-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+			-moz-box-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+			box-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+		}
+		
+		.inbio-body article.inbio-results .inbio-block h2
+		{
+			background:#004080;
+			color:#fff;
+			display:block;
+			font: normal bold 18px/1.2em 'Maven Pro', sans-serif;
+			margin:15px 10px 15px 0;
+			overflow:hidden;
+			padding:12px 13px;
+			text-align:left;
+			text-transform:uppercase;
+		}
+		
+		.inbio-body article.inbio-results .inbio-block p
+		{
+			color:#32363b;
+			font:normal normal 13px/1.4em Tahoma, Geneva, sans-serif;
+			padding:0 15px 10px;
+			position:relative;
+			max-height:200px;
+			text-align:left;
+			z-index:2;
+		}
+		
+		
+			.inbio-body article.inbio-results .inbio-results-form
+			{
+				display:block;
+				overflow:hidden;
+			}
+			
+			.inbio-body article.inbio-results .inbio-results-form .inbio-results-row
+			{
+				padding:3px 0;
+			}
+			
+			.inbio-body article.inbio-results .inbio-results-form .inbio-results-row label
+			{
+				color: #32363b;
+				display: inline;
+				font: normal normal 13px/18px Tahoma, Geneva, sans-serif;
+				margin: 0 0 0 15px;
+				padding: 5px 0;
+				text-align: left;
+				width: 195px;
+			}
+	
+			.inbio-body article.inbio-results .inbio-results-form .inbio-results-row input.text-box,
+			.inbio-body article.inbio-results .inbio-results-form .inbio-results-row select.text-box
+			{
+				border: solid 3px #d8dfe6;
+				color: #000;
+				display: inline;
+				float: left;
+				font: normal normal 15px/1.4em Tahoma, Geneva, sans-serif;
+				margin: 0 0 5px 15px;
+				padding: 3px;
+				width: 240px;
+				text-align: left;
+				-webkit-border-radius: 2px;
+				-moz-border-radius: 2px;
+				border-radius: 2px;
+			}
+	
+			.inbio-body article.inbio-results .inbio-results-form .inbio-results-row .command-button
+			{
+				background:#004080;
+				border:0px;
+				color:#fff;
+				cursor:pointer;
+				display: inline;
+				
+				float: left;			
+				font: normal bold 14px/1.4em 'Maven Pro', sans-serif;
+				margin: 5px 0 0 15px;
+				padding: 5px 25px 6px;
+				
+				/* border radius */
+				-webkit-border-radius: 2px;
+				-moz-border-radius: 2px;
+				border-radius: 2px;
+				
+				width:auto;
+			}
+	
+			.inbio-body article.inbio-results .inbio-results-form .inbio-results-row .command-button:hover
+			{
+				color: #fff;
+			}
+			
+			.inbio-body article.inbio-results .inbio-results-form .inbio-results-txt
+			{
+				color:#99a4b0;
+				float:right;
+				display:inline;
+				font:normal bold 10px/1.2em  'Maven Pro', sans-serif;
+				padding:5px 34px 15px 0;
+			}
+			
+			.inbio-body article.inbio-results .inbio-results-form .inbio-results-link
+			{
+				display:block;
+				float:left;
+				padding:5px 0 0 15px;
+				text-align:left;
+				width:100%;
+			}
+				
+				.inbio-body article.inbio-results .inbio-results-form .inbio-results-link a:link,
+				.inbio-body article.inbio-results .inbio-results-form .inbio-results-link a:visited,
+				.inbio-body article.inbio-results .inbio-results-form .inbio-results-link a:active,
+				.inbio-body article.inbio-results .inbio-results-form .inbio-results-link a:hover  
+				{
+					font:normal normal 12px/1.2em  'Maven Pro', sans-serif;
+					color:#169ffb;
+				}
+				
+				.inbio-body article.inbio-results .inbio-results-form .inbio-results-link a:hover  
+				{
+					text-decoration:underline;
+				}
+			
+			.inbio-body article.inbio-results .inbio-results-form .inbio-results-row label.error
+			{
+				color: #fadf98;
+				display: inline;
+				float: left;
+				
+				font: normal bold 18px/14px Arial, Helvetica, sans-serif;
+				
+				margin: 9px 3px 0 3px;
+				/*background:url(../img/error.gif) no-repeat;*/
+				padding:2px 0 ;
+				text-align: left;
+				
+				width:14px;
+				height:14px;
+			}
+			
+			.inbio-body article.inbio-results .inbio-results-form .inbio-results-row input.error,
+			.inbio-body article.inbio-results .inbio-results-form .inbio-results-row select.error
+			{			
+				background:#faefd3;
+				border: solid 3px #fadf98;
+			}
+	
+	.inbio-prefooter
+	{
+		background:#fff;
+		float:left;
+		margin:15px 0 0 0;
+		max-width:900px;
+		width:100%;
+		-webkit-box-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+		-moz-box-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+		box-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+	}
+	
+	/* PRE FOOTER (SLIDER - SOCIAL)
+	*************************************************************************************/
+	
+	.imbio-slider-logo
+	{
+		position:relative;
+		float:left;
+		width:100%;
+		height:auto;
+		margin:10px auto 10px;
+		max-width:590px;
+	}
+	
+		.imbio-logos .main-container {
+			padding:15px 40px;
+			position:inherit !important;
+		}
+		
+		.imbio-logos {
+			font-family: Arial, sans-serif;
+			font-size:12px;
+			line-height: 20px;
+			color: #777;
+			text-shadow: #fff 1px 1px 1px;
+		}
+		
+		
+		.imbio-logos ul li a {
+			display:block;
+			overflow:hidden;
+		}
+		
+		.imbio-logos .thumb{
+			border:1px solid #ddd;
+			padding:4px;
+			height:auto;
+			background:#fff;
+			position:relative;
+			z-index:50;
+		}
+		
+		
+		.toolbar{visibility:hidden}
+
+		.toolbar .left{
+			background:url(../img/left.png) no-repeat top;
+			width:30px;
+			height:45px;
+			position:absolute;
+			left:35px;
+			top:35px;
+			z-index:100;
+			margin-left:-29px;
+			cursor:pointer;
+		}
+		
+		.toolbar .left:hover{background-position:bottom;}
+		
+		
+		.toolbar .right{
+			background:url(../img/right.png) no-repeat top;
+			width:30px;
+			height:45px;
+			position:absolute;
+			right:5px;
+			top:35px;
+			z-index:100;	
+			margin-right:-30px;
+			cursor:pointer;
+		}
+		
+		
+		.toolbar .right:hover{background-position:bottom;}
+
+
+	.inbio-social-cont
+	{
+		display:block;
+		padding:15px 0 0 0;
+		position:relative;
+		float:right;
+		width:270px;
+	}
+	
+	.inbio-social-cont h3
+	{
+		color:#32363b;
+		font: normal bold 18px/1.2em 'Maven Pro', sans-serif;
+		float:left;
+		padding:40px 0 5px 15px;
+		text-align:left;
+		text-transform:uppercase;
+		width:105px;
+	}
+	
+		.inbio-social-cont a:link,
+		.inbio-social-cont a:visited,
+		.inbio-social-cont a:active,
+		.inbio-social-cont a:hover 
+		{
+			display:inline-block;
+			float:left;
+			margin:25px 8px 0 10px;
+		}
+		
+			.inbio-social-cont a:link span,
+			.inbio-social-cont a:visited span,
+			.inbio-social-cont a:active span,
+			.inbio-social-cont a:hover span 
+			{
+				background-image:url(../img/icos-face.png);
+				background-repeat:no-repeat;
+				display:block;
+				height:49px;
+				width:48px;
+			}
+				
+				.inbio-social-cont a:link span.inbio-face,
+				.inbio-social-cont a:visited span.inbio-face,
+				.inbio-social-cont a:active span.inbio-face,
+				.inbio-social-cont a:hover span.inbio-face
+				{
+					background-position: bottom left;
+				}
+				.inbio-social-cont a:hover span.inbio-face
+				{
+					background-position: top left;
+				}
+				
+				.inbio-social-cont a:link span.inbio-twit,
+				.inbio-social-cont a:visited span.inbio-twit,
+				.inbio-social-cont a:active span.inbio-twit,
+				.inbio-social-cont a:hover span.inbio-twit
+				{
+					background-position: bottom right;
+				}
+				.inbio-social-cont a:hover span.inbio-twit
+				{
+					background-position: top right;
+				}
+			
+					
+	/* FOOTER STYLING
+	*************************************************************************************/
+	.inbio-footer
+	{
+		height:auto;
+		margin:13px 0 0 0;
+		width:100%;
+		
+		background: #004080; /* Old browsers */
+		background: -moz-linear-gradient(top,  #01162b 0%, #004080 4%, #004080 100%); /* FF3.6+ */
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#01162b), color-stop(4%,#004080), color-stop(100%,#004080)); /* Chrome,Safari4+ */
+		background: -webkit-linear-gradient(top,  #01162b 0%,#004080 4%,#004080 100%); /* Chrome10+,Safari5.1+ */
+		background: -o-linear-gradient(top,  #01162b 0%,#004080 4%,#004080 100%); /* Opera 11.10+ */
+		background: -ms-linear-gradient(top,  #01162b 0%,#004080 4%,#004080 100%); /* IE10+ */
+		background: linear-gradient(to bottom,  #01162b 0%,#004080 4%,#004080 100%); /* W3C */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#01162b', endColorstr='#004080',GradientType=0 ); /* IE6-9 */
+
+	}
+	
+		.inbio-fot-cont
+		{
+			display: block;
+			margin: 0px auto;
+			overflow: hidden;
+			padding: 10px 0;
+			width: 100%;
+			max-width: 781px;
+		}
+		
+		.inbio-txt-address
+		{
+			color:#fff;
+			display:inline-block;
+			float:left;
+			font:normal normal 12px/1.2em 'Maven Pro', sans-serif;
+			margin:0 0 0 64px;
+			text-align:left;
+			width:auto;
+		}
+		
+		.inbio-txt-copy
+		{
+			color:#fff;
+			display:inline-block;
+			float:right;
+			font:normal normal 12px/1.2em 'Maven Pro', sans-serif;
+			text-align:right;
+			width:auto;
+		}
+	
+	
+	
+	
+		.inbio-footer-center
+		{
+			display: block;
+			margin: 0px auto;
+			overflow: hidden;
+			padding:0 0 10px;
+			width: 100%;
+			max-width: 900px;
+		}
+		
+			.inbio-footer-links
+			{
+				display:inline-block;
+				float:left;
+				padding:25px 0 0 15px;
+				width:200px;
+			}
+			
+				.inbio-footer-links h3
+				{
+					color:#93a5ba;
+					font:normal bolder 14px/1.2em 'Maven Pro', sans-serif;
+					padding:0 0 15px 0;
+				}
+				
+				.inbio-footer-links ul
+				{
+					display:block;
+				}
+				
+				.inbio-footer-links ul li
+				{
+					background:url(../img/bullet-2.png) no-repeat 0px 6px;
+					color:#93a5ba;
+					display:block;
+					font:normal normal 13px/1.8em 'Maven Pro', sans-serif;
+					padding:0 0 0 25px;
+				}
+				
+				.inbio-footer-links ul li a:link,
+				.inbio-footer-links ul li a:visited,
+				.inbio-footer-links ul li a:active,
+				.inbio-footer-links ul li a:hover 
+				{
+					color:#93a5ba;
+					font:normal normal 13px/1.8em 'Maven Pro', sans-serif;
+					text-decoration:none;
+				}
+				
+				.inbio-footer-links ul li a:hover 
+				{
+					color:#169ffb;
+					text-decoration:underline;
+				}
+			
+			
+			.inbio-footer-addreess
+			{
+				display:inline-block;
+				float:left;
+				padding:25px 0 0 15px;
+				width:365px;
+			}
+			
+				.inbio-footer-addreess h3
+				{
+					color:#93a5ba;
+					font:normal bolder 14px/1.2em 'Maven Pro', sans-serif;
+					padding:0 0 15px 0;
+				}
+				
+				.inbio-footer-addreess p
+				{
+					background:url(../img/bullet-2.png) no-repeat 0px 6px;
+					color:#93a5ba;
+					display:block;
+					font:normal normal 13px/1.3em 'Maven Pro', sans-serif;
+					padding:2px 0 16px 25px;
+				}
+			
+				.inbio-footer-addreess p a:link,
+				.inbio-footer-addreess p a:visited,
+				.inbio-footer-addreess p a:active,
+				.inbio-footer-addreess p a:hover 				
+				{
+					color:#93a5ba;
+					font:normal bold 13px/1.8em 'Maven Pro', sans-serif;
+					text-decoration:none;
+				}
+				
+				.inbio-footer-addreess p a:hover 				
+				{
+					color:#169ffb;
+					text-decoration:underline;
+				}
+				
+				
+			
+			.inbio-footer-contact
+			{
+				display:inline-block;
+				float:left;
+				padding:25px 0 0 15px;
+				width:290px;
+			}
+			
+				.inbio-footer-contact h3
+				{
+					color:#93a5ba;
+					font:normal bolder 14px/1.2em 'Maven Pro', sans-serif;
+					padding:0 0 15px 0;
+				}
+				
+				
+					.inbio-footer-contact .inbio-footer-contact-form
+					{
+						display:block;
+						overflow:hidden;
+					}
+					
+					.inbio-footer-contact .inbio-footer-contact-form .inbio-footer-contact-row
+					{
+						padding:3px 0;
+					}
+					
+					.inbio-footer-contact .inbio-footer-contact-form .inbio-footer-contact-row label
+					{
+						color: #93a5ba;
+						display: inline;
+						font: normal normal 13px/18px Tahoma, Geneva, sans-serif;
+						margin: 0 0 0 15px;
+						padding: 5px 0;
+						text-align: left;
+						width: 195px;
+					}
+			
+					.inbio-footer-contact .inbio-footer-contact-form .inbio-footer-contact-row input.text-box,
+					.inbio-footer-contact .inbio-footer-contact-form .inbio-footer-contact-row select.text-box
+					{
+						background:#002c58;
+						border: solid 2px #7b91ac;
+						color: #93a5ba;
+						display: inline;
+						float: left;
+						font: normal normal 15px/1.4em Tahoma, Geneva, sans-serif;
+						margin: 0 0 5px 0;
+						padding: 3px;
+						width: 240px;
+						text-align: left;
+						-webkit-border-radius: 2px;
+						-moz-border-radius: 2px;
+						border-radius: 2px;
+					}
+			
+					.inbio-footer-contact .inbio-footer-contact-form .inbio-footer-contact-row .command-button
+					{
+						background:#002c58;
+						border:0px;
+						color:#fff;
+						cursor:pointer;
+						display: inline;
+						
+						float: left;			
+						font: normal bold 14px/1.4em 'Maven Pro', sans-serif;
+						margin: 5px 0 0 0;
+						padding: 5px 25px 6px;
+						
+						/* border radius */
+						-webkit-border-radius: 2px;
+						-moz-border-radius: 2px;
+						border-radius: 2px;
+						
+						width:auto;
+					}
+			
+					.inbio-footer-contact .inbio-footer-contact-form .inbio-footer-contact-row .command-button:hover
+					{
+						background:#169ffb;
+						color: #fff;
+					}
+					
+					.inbio-footer-contact .inbio-footer-contact-form .inbio-footer-contact-txt
+					{
+						color:#99a4b0;
+						float:right;
+						display:inline;
+						font:normal bold 10px/1.2em  'Maven Pro', sans-serif;
+						padding:5px 34px 15px 0;
+					}
+					
+					.inbio-footer-contact .inbio-footer-contact-form .inbio-footer-contact-link
+					{
+						display:block;
+						float:left;
+						padding:5px 0 0 15px;
+						text-align:left;
+						width:100%;
+					}
+						
+						.inbio-footer-contact .inbio-footer-contact-form .inbio-footer-contact-link a:link,
+						.inbio-footer-contact .inbio-footer-contact-form .inbio-footer-contact-link a:visited,
+						.inbio-footer-contact .inbio-footer-contact-form .inbio-footer-contact-link a:active,
+						.inbio-footer-contact .inbio-footer-contact-form .inbio-footer-contact-link a:hover  
+						{
+							font:normal normal 12px/1.2em  'Maven Pro', sans-serif;
+							color:#169ffb;
+						}
+						
+						.inbio-footer-contact .inbio-footer-contact-form .inbio-footer-contact-link a:hover  
+						{
+							text-decoration:underline;
+						}
+					
+					.inbio-footer-contact .inbio-footer-contact-form .inbio-footer-contact-row label.error
+					{
+						color: #fadf98;
+						display: inline;
+						float: left;
+						
+						font: normal bold 18px/14px Arial, Helvetica, sans-serif;
+						
+						margin: 9px 3px 0 3px;
+						/*background:url(../img/error.gif) no-repeat;*/
+						padding:2px 0 ;
+						text-align: left;
+						
+						width:14px;
+						height:14px;
+					}
+					
+					.inbio-footer-contact .inbio-footer-contact-form .inbio-footer-contact-row input.error,
+					.inbio-footer-contact .inbio-footer-contact-form .inbio-footer-contact-row select.error
+					{
+						background:#004083;
+						border: solid 2px #fadf98;
+					}
+					
+					
+					
+	.inbio-postfooter
+	{
+		background:#0b3156;
+		border-top:solid 1px #5b7796;
+		padding:5px 0;
+		width:100%;
+	}
+	
+		.inbio-posfooter-center
+		{
+			display: block;
+			margin: 0px auto;
+			overflow: hidden;
+			width: 100%;
+			max-width: 900px;
+		}
+		
+			.inbio-posfooter-center .inbio-postfooter-txt
+			{
+				color:#7994b1;
+				font:normal normal 13px/1.2em Tahoma, Geneva, sans-serif;
+				padding:15px 0 15px 15px;
+				text-align:center;
+			}
+			
+			.inbio-posfooter-center .inbio-logo-postfooter
+			{
+				display:block;
+				overflow:hidden;
+				padding:6px 15px 4px 0;
+			}
+			
+		
+

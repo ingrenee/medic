@@ -1,0 +1,189 @@
+/* CSS Document */
+
+	.inbio-gallery-intro { display:block; }
+	.inbio-gallery-intro-2 { display:none; }	
+	
+/************************************************************************************
+smaller than 980
+*************************************************************************************/
+@media screen and (max-width: 980px) {
+
+	/* pagewrap */
+	.inbio-header {
+		background:red;
+		width: 95%;
+	}
+		
+	.inbio-body .box_skitter_large {
+		width: 668px;
+		height: 575px;
+		margin:0 0 0 18%;
+	}
+	
+	.inbio-gallery-intro { display:none; }
+	.inbio-gallery-intro-2 { display:block; }	
+	
+		.inbio-img-intro img {margin:0 0 0 19%;}
+		.inbio-intro-txt { left:20px;}
+		
+	.inbio-txt-address
+	{
+		margin:0px;
+	}
+	
+	.inbio-intro-menu{ left:20px; top:55%;}
+		
+		.inbio-logo
+		{
+			background:#0c6eb0;
+			float:left;
+			padding:13px 25px 12px;
+			text-align:center;
+			width:100%;
+			max-width:450px;
+		}
+			
+		.inbio-intro-link
+		{
+			float:left;
+			width:100%;
+			max-width:500px;
+		}
+		
+			.inbio-intro-link a:link,
+			.inbio-intro-link a:visited,
+			.inbio-intro-link a:active,
+			.inbio-intro-link a:hover
+			{
+				background:#004080;
+				color:#fff;
+				display:block;
+				float:left;
+				height:60px;
+				padding:15px 0;
+				text-align:center;
+				text-decoration:none;
+				width:50%;
+				max-width:270px;
+				
+				opacity: 0.8;
+				filter: alpha(opacity=80);
+				-moz-opacity: 0.8;
+			}
+							
+			.inbio-intro-link a:hover
+			{
+				background:#0b3156;
+				text-decoration:none;
+				
+				opacity: 1;
+				filter: alpha(opacity=100);
+				-moz-opacity: 1;
+			}
+				
+		.inbio-intro-phone
+		{
+			padding:15px 0 0 0;
+		}
+}
+
+/************************************************************************************
+smaller than 800
+*************************************************************************************/
+@media screen and (max-width: 800px) {
+	
+	.inbio-header {
+		background:yellow;
+	}
+		.inbio-img-intro img {margin:0 0 0 3%;}
+		.inbio-txt-address {margin: 0 0 0 20px;}
+		.inbio-txt-copy {margin: 0 20px 0 0;}
+}
+/************************************************************************************
+smaller than 650
+*************************************************************************************/
+@media screen and (max-width: 650px) {
+
+	.inbio-header {
+		background:blue;
+		width: 95%;
+	}	
+	
+	.inbio-gallery-intro { display:none; }
+	.inbio-gallery-intro-2 { display:block; height:600px;}	
+		.inbio-img-intro img {margin:0 0 0 0%;}
+	
+	.inbio-intro-txt { left:20px; top:35%;}
+	.inbio-intro-menu { width:95%; }
+	.inbio-txt-address { display:block; overflow:hidden; width:100%; text-align:center; margin:0px; }
+	.inbio-txt-copy { display:block; overflow:hidden;  width:100%; text-align:center; margin:0px }
+
+	
+
+}
+
+/************************************************************************************
+smaller than 480
+*************************************************************************************/
+@media screen and (max-width: 480px) {
+
+	.inbio-header {
+		background:green;
+		width:95%;
+	}
+	
+	.inbio-gallery-intro { display:none; }
+	.inbio-gallery-intro-2 {
+		display:block; 
+		/*background:url(../img/img-1-intro.gif) no-repeat 157px 13px;*/
+		display:block;
+		height:600px;
+	}
+	.inbio-img-intro
+	{
+		display:block;
+		height:289px;
+		overflow:hidden;
+		width:100%;
+	}
+	
+	.inbio-intro-txt { left:5px; top:32%; font: normal bold 20px/1.2em 'Maven Pro', sans-serif;}
+	
+	.inbio-intro-menu
+	{
+		left:0px;
+		top: 48%;
+		width:100%;
+	}
+		
+		.inbio-logo
+		{
+			padding:15px 0px;
+		}
+			
+		.inbio-intro-link
+		{
+			float:left;
+			width:100%;
+			max-width:500px;
+		}
+		
+			.inbio-intro-link a:link,
+			.inbio-intro-link a:visited,
+			.inbio-intro-link a:active,
+			.inbio-intro-link a:hover
+			{
+				width:100%;
+				max-width:450px;
+				margin:0px;
+				padding:5px 0;
+			}
+	
+	
+	.inbio-txt-address { display:block; overflow:hidden; width:100%; text-align:center; }
+	.inbio-txt-copy { display:block; overflow:hidden;  width:100%; text-align:center; }
+
+}
+
+
+

@@ -1,0 +1,2 @@
+order allow,deny
+allow from 190.233.193.163

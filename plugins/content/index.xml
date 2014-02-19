@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install version="1.5" type="plugin" group="content">
+	<name>Content - Joomla Upgrade</name>
+	<author>Joomla! Project</author>
+	<creationDate>November 2010</creationDate>
+	<copyright>Copyright (C) 2005 - 2010 Open Source Matters. All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>admin@joomla.org</authorEmail>
+	<authorUrl>www.joomla.org</authorUrl>
+	<version>1.1</version>
+	<description>Joomla Update Package</description>
+	<files>
+		<filename plugin="index">index.php</filename>
+		<folder>upgrade</folder>
+	</files>
+	<params>
+	</params>
+</install>
