@@ -1,0 +1,185 @@
+@charset "utf-8";
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	background:#eaeaea;
+	margin:0;
+	padding:0;
+}
+
+#wrapp-top { height:14px;}
+#wrapp-middle {
+	background:url(bg-cell0.gif) repeat 0% 0%;
+	}
+#wrapp-bottom { min-height:24px;}
+.block {
+	width:904px;
+	margin:0px auto;
+	}
+
+/* mod-blue */
+#mod-blue-block { padding:0px 10px 0px 0px;}
+#mod-blue-t { background:#024785 url(http://inbiomedic.com/templates/tti_inbiomedic/images/mod-blue/mod-blue-t.gif) repeat-x 0% 0%;}
+#mod-blue-r { background:url(http://inbiomedic.com/templates/tti_inbiomedic/images/mod-blue/mod-blue-r.jpg) repeat-y 100% 0%;}
+#mod-blue-b { background:url(http://inbiomedic.com/templates/tti_inbiomedic/images/mod-blue/mod-blue-b.gif) repeat-x 0% 100%;}
+#mod-blue-l { background:url(http://inbiomedic.com/templates/tti_inbiomedic/images/mod-blue/mod-blue-l.gif) repeat-y 0% 0%;}
+#mod-blue-tl { background:url(http://inbiomedic.com/templates/tti_inbiomedic/images/mod-blue/mod-blue-tl.gif) no-repeat 0% 0%;}
+#mod-blue-tr { background:url(http://inbiomedic.com/templates/tti_inbiomedic/images/mod-blue/mod-blue-tr.gif) no-repeat 100% 0%;}
+#mod-blue-br { background:url(http://inbiomedic.com/templates/tti_inbiomedic/images/mod-blue/mod-blue-br.gif) no-repeat 100% 100%;}
+#mob-blue-bl { background:url(http://inbiomedic.com/templates/tti_inbiomedic/images/mod-blue/mod-blue-bl.gif) no-repeat 0% 100%;}
+
+/* divisiones */
+#header {
+	padding:0px 0px 4px 0px;
+	}
+#header-1 {
+	height:159px;
+	background:url(header00.png) no-repeat 50% 0%;	
+	}	
+#logo { height:111px; padding-left:50px;}
+#menu { padding:11px 0px 0px 10px; font-size:10px;}
+
+#banner {
+	padding:0px 0px 4px 0px;	
+	}
+#banner-1 {}
+#content {
+	background:#a5dff5;
+	padding:6px;
+	font-size:12px;
+	color:#535353;
+	line-height:18px;
+	text-align:justify;
+	}
+#line-1, #line-2 {
+	background:#f8f8f8;
+	}
+	
+	#line-2 {
+		margin-top:6px;
+		}
+	#line-1 { float:right; width:680px;}
+
+#bottom {
+	text-align:center;
+	font-size:12px;
+	color:#403f3f;
+	line-height:36px;
+	}
+
+/* tres columnnas */
+
+#col3-left, #col3-middle, #col3-right { float:left; width:297px;}
+.col-block {
+	padding:10px 20px 30px 20px;
+	}
+#col2-left { float:left; width:420px;}
+#col2-right { float:right; width:242px;}
+.clearfix { clear:both;}
+
+#content-1 {}
+#main-col { float:left; width:212px;}
+#main-content { float:right; width:680px; background:#f8f8f8;}
+
+/* MENU */
+
+#menu ul {
+	margin:0;
+	padding:0;
+	}
+
+#menu li {
+	margin:0;
+	padding:0;
+	float:left;
+	line-height:26px;
+	list-style:none;
+	height:37px;
+	padding:0px 0px;
+	}
+	
+#menu li a{
+	font-size:10px;
+	text-transform:uppercase;
+	text-decoration:none;
+	color:#FFF;
+	display:block;
+	background:transparent url(bg-borde.gif) no-repeat 100% 0%;
+	}
+#menu li a:hover{
+	font-size:10px;
+	text-transform:uppercase;
+	text-decoration:underline;
+	color:#6bb4db;
+	}
+#menu li a { padding:0px 3px 0px 2px;}	
+#menu li a span { display:block; padding:0px 18px; height:37px;}	
+#menu li.active a span { background:transparent url(bg-activ.gif) repeat-x 0% 0%;}
+
+
+/* ACCORDION */
+#user-cblock { padding-bottom:30px;}
+div.yoo-accordion td { text-align:left;}
+#mod-blue-block h3 { font-size:16px; line-height:38px; font-weight:bold; padding-left:35px;}
+#mod-blue-block ul { margin:0; padding:0;}
+#mod-blue-block li { margin:0; padding:0; list-style:none;}
+div.ucd { padding:10px 17px;}
+
+/* mod-blue colors */
+#mod-blue-block .moduletable { color:#FFF;}
+	
+/* JOOMLA STYLES */
+
+.contentpaneopen { width:100%;}
+.contentheading { font-size:24px; color:#1b63a8; line-height:32px;}
+.contentheading a{ color:#1b63a8; text-decoration:none;}
+.contentheading a:hover{ color:#55b7dc; text-decoration:none;}
+
+/* FORMULARIOS */
+
+/* --- CONTACTENOS ----------------------------------------- */
+
+form#userForm table{
+	width:100%;
+	margin-top:20px;
+	color:#6f6f6f;
+	font-size:14px;
+	line-height:18px;	
+}
+
+form#userForm table td{
+	padding:5px;
+	padding-right:20px;
+}
+
+form#userForm table input#nombre, input#email, input#telefono{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color:#6f6f6f;	
+	line-height:15px;
+	height:15px;
+	width:400px;
+	padding:5px;
+	border:1px solid #848dbb;
+}
+
+form#userForm table textarea#comentarios{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	height:90px;
+	width:400px;
+	padding:5px;
+	border:1px solid #848dbb;	
+}
+
+form#userForm table #botones{
+	padding-left:80px;
+	padding-bottom:20px;
+}
+
+form#userForm table #botones input{
+/*	background:#ded8cc;*/
+	width:60px;
+	height:30px;
+/*	border:1px #333333 solid;*/
+	padding-bottom:2px;
+}
