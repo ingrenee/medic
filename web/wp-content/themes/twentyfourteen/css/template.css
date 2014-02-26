@@ -183,3 +183,7 @@ form#userForm table #botones input{
 /*	border:1px #333333 solid;*/
 	padding-bottom:2px;
 }
+
+
+.imagen,.alignright 
+{margin-top: 10px; margin-left: 10px; float: right; border: 4px double #80c0e4;}
