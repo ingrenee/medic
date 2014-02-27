@@ -32,6 +32,17 @@
 	<![endif]-->
 <?php wp_head(); ?>
 <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/css/template.css" media="screen" />
+<link rel="stylesheet" href="//code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css">
+
+  <script src="//code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+
+ <script>
+  jQuery(function() {
+    jQuery( "#acordeon" ).accordion({
+      heightStyle: "content"
+    });
+  });
+  </script>
 </head>
 
 <body <?php body_class(); ?>>
@@ -44,7 +55,7 @@
 				<div id="site-header"> <a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"> <img src="<?php header_image(); ?>" width="<?php echo get_custom_header()->width; ?>" height="<?php echo get_custom_header()->height; ?>" alt=""> </a> </div>
 				<?PHP else:?>
 				<div id="logo">
-						<div class="moduletable"> <img style="border-color: #000000; border-width: 0px; margin: 0px;" src="<?php bloginfo('template_directory'); ?>/images/logo-inb.png" alt="Inbiomedic" width="316" height="89"> </div>
+						<div class="moduletable">  <a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><img style="border-color: #000000; border-width: 0px; margin: 0px;" src="<?php bloginfo('template_directory'); ?>/images/logo-inb.png" alt="Inbiomedic" width="316" height="89"> </a></div>
 				</div>
 				<?php endif; ?>
 				<div id="menu">
