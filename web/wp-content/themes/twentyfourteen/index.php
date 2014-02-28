@@ -20,6 +20,11 @@ get_header(); ?>
 <div id="content">
 						<div class="inset">
 								<div class="moduletable">
+								<?PHP
+$options = get_option( 'wedevs_basics' );
+?>
+<?PHP if($options['widget_home']=='NO'):?>
+								
 										<object style="margin: 0px; border: 0px none #000000;" width="890" height="221" data="<?php bloginfo('template_directory'); ?>/images/presenta.swf" type="application/x-shockwave-flash">
 												<param name="src" value="/images/stories/flash/presentacion.swf">
 												<param name="menu" value="false">
@@ -28,6 +33,9 @@ get_header(); ?>
 												<param name="base" value="/">
 												<param name="name" value="presentacion.swf">
 										</object>
+			<?PHP else:?>							
+											<?php get_sidebar( 'home' ); ?>
+						<?PHP endif;?>				
 								</div>
 						</div>
 				</div>

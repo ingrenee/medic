@@ -284,3 +284,8 @@ height: 30px;
 /* border: 1px #333333 solid; */
 padding-bottom: 2px !important;
 margin-left:130px !important;}
+
+#sidebar-home .widget_sp_image
+{
+	display:inline-block;
+	margin-left:4.5px;}
